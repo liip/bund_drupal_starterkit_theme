@@ -1,0 +1,43 @@
+name: bund_drupal_starterkit_theme
+type: theme
+description: Bund Drupal Starterkit Theme
+package: liip
+base theme: classy
+regions:
+  header_treecrumb: 'Header treecrumb'
+  header_services: 'Header Services'
+  header_middle: 'Header middle'
+  header_bottom: 'Header bottom'
+  primary_menu: 'Primary menu'
+  # secondary_menu: 'Secondary menu'
+  # page_top: 'Page top'
+  # page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  # help: 'Messages'
+  # breadcrumb: Breadcrumb
+  # tabs: Tabs
+  content: 'Content'
+  # sidebar_first: 'Sidebar first'
+  # sidebar_second: 'Sidebar second'
+  # featured_bottom_first: 'Featured bottom first'
+  # featured_bottom_second: 'Featured bottom second'
+  # featured_bottom_third: 'Featured bottom third'
+  footer: 'Footer'
+  #footer_second: 'Footer second'
+  #footer_third: 'Footer third'
+libraries:
+    - bund_drupal_starterkit_theme/global-styles
+features:
+    - favicon
+    - logo
+    - slogan
+stylesheets-remove:
+    - @classy/css/layout.css
+    - @book/css/book.theme.css
+    - @comment/css/comment.theme.css
+    - @file/css/file.theme.css
+    - @forum/css/forum.theme.css
+    - @system/css/system.theme.css
+    - @taxonomy/css/taxonomy.theme.css
+version: '1.0'
+core: '8.x'

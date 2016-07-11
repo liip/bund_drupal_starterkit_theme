@@ -1,0 +1,17 @@
+# Global Styles
+global-styles:
+  version: 8.x-1.0
+  css:
+    theme:
+      assets/css/vendors.css: {}
+      assets/css/admin-drupal.css: {}
+      assets/css/print.css: { media: print }
+  js:
+    assets/js/vendors-without-jquery.min.js: {}
+    assets/js/main.js: {}
+    assets/js/scripts.js: {}
+  dependencies:
+    - core/jquery
+#    - core/modernizr
+    - core/drupal
+    - core/drupalSettings

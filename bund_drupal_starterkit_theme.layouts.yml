@@ -1,0 +1,16 @@
+example_layout:
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  label: Events
+  category: Display Suite
+  template: layouts/events/events
+  icon: layouts/events/events.png
+  regions:
+    event_list:
+      label: Eventliste
+    event_detail_header:
+      label: Eventdetail Header
+    event_detail_left:
+      label: Eventdetail Links
+    event_detail_right:
+      label: Eventdetail Rechts

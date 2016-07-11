@@ -1,0 +1,13 @@
+/* ==========================================================
+ * edit_mode.scss
+ * Correction of small glitches when edition mode is enabled
+ =========================================================== */
+
+#toolbar-administration {
+  z-index: 10000;
+}
+
+.nav-services .contextual {
+    top: -15px;
+    right: -25px;
+}

@@ -1,0 +1,40 @@
+<!-- page wrapper start -->
+<!-- ================ -->
+
+
+
+<header>
+  <div class="clearfix">
+    <nav class="navbar treecrumb pull-left" role="navigation">
+      {{ page.header_treecrumb }}
+    </nav>
+
+    {{ page.header_services }}
+
+  </div>
+  <div class="clearfix">
+    {{ page.header_middle }}
+  </div>
+  {{ page.header_bottom}}
+</header>
+
+{{ page.primary_menu }}
+
+<div class="container-fluid">
+  <div class="row">
+  </div>
+
+  {{ page.highlighted }}
+
+  {% if action_links %}
+    <nav class="action-links">{{ action_links }}</nav>
+  {% endif %}
+
+  {{ page.content }}
+
+</div>
+<footer>
+  {{ page.footer }}
+</footer>
+
+

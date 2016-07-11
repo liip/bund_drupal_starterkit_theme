@@ -1,0 +1,12 @@
+{
+    "name": "liip/bund_drupal_starterkit_theme",
+    "description": "Drupal 8 starterkit theme for the Swiss Government\"",
+    "type": "drupal-theme",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "Sylvain Aerni",
+            "email": "sylvain.aerni@liip.ch"
+        }
+    ]
+}
