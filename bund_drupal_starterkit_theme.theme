@@ -69,7 +69,7 @@ function bund_drupal_starterkit_theme_preprocess_links__language_block(&$variabl
   unset($current_language);
 }
 
-function bund_drupal_starterkit_theme_preprocess_menu__main(&$variables) {
+function bund_drupal_starterkit_theme_preprocess_menu__main_navigation(&$variables) {
   $variables['site_name'] = \Drupal::config('system.site')->get('name');
 }
 
