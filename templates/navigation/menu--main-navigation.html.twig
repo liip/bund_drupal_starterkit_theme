@@ -33,7 +33,7 @@
     <div class="nav-mobile-header">
       <div class="table-row">
         <span class="nav-mobile-logo">
-          <img src="{{ directory }}/assets/img/swiss.svg" onerror="this.onerror=null; this.src='{{ directory }}/assets/swiss.png'" alt="{{ 'Logo of the Swiss Confederation'|t }} - {{ 'to the homepage'|t }}">
+          <img src="/{{ directory }}/assets/img/swiss.svg" onerror="this.onerror=null; this.src='/{{ directory }}/assets/swiss.png'" alt="{{ 'Logo of the Swiss Confederation'|t }} - {{ 'to the homepage'|t }}">
         </span>
         <h1><a href="{{ path('<front>') }}">{{ site_name }}</a></h1>
       </div>
@@ -146,6 +146,10 @@
               {% endif %}
             </div>
           </li>
+
+          {% if loop.index is divisibleby(4) %}
+              <div class="clearfix"></div>
+          {% endif %}
 
         {% elseif menu_level >= 2 %}
           <li role="presentation">
