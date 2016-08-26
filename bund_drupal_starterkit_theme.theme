@@ -111,7 +111,7 @@ function bund_drupal_starterkit_theme_preprocess_menu(&$variables) {
  * Preprocess variables for field templates.
  */
 /* -- Delete this line if you want to use this function
-function apodro_preprocess_field(&$variables) {
+function bund_drupal_starterkit_theme_preprocess_field(&$variables) {
 }
 // */
 
@@ -119,7 +119,7 @@ function apodro_preprocess_field(&$variables) {
  * Preprocess variables for node templates.
  */
 /* -- Delete this line if you want to use this function
-function apodro_preprocess_node(&$variables) {
+function bund_drupal_starterkit_theme_preprocess_node(&$variables) {
 }
 // */
 
@@ -127,7 +127,7 @@ function apodro_preprocess_node(&$variables) {
  * Preprocess variables for comment templates.
  */
 /* -- Delete this line if you want to use this function
-function apodro_preprocess_comment(&$variables) {
+function bund_drupal_starterkit_theme_preprocess_comment(&$variables) {
 }
 // */
 
@@ -135,6 +135,6 @@ function apodro_preprocess_comment(&$variables) {
  * Preprocess variables for block templates.
  */
 /* -- Delete this line if you want to use this function
-function apodro_prep§rocess_block(&$variables) {
+function bund_drupal_starterkit_theme_preprocess_block(&$variables) {
 }
 // */
